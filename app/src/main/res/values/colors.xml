@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Arena (#D8B5A1) y sus tonos -->
+    <color name="arena_muy_claro">#FBF6F3</color>
+    <color name="arena_claro">#F3E6DE</color>
+    <color name="arena">#D8B5A1</color>
+    <color name="arena_oscuro">#B88F78</color>
+
+    <!-- Rosa (#C3898E) y sus tonos -->
+    <color name="rosa_claro">#E8C9CC</color>
+    <color name="rosa">#C3898E</color>
+    <color name="rosa_oscuro">#9A5E64</color>
+
+    <!-- Café (#513D34) y sus tonos -->
+    <color name="cafe_claro">#7A6358</color>
+    <color name="cafe">#513D34</color>
+    <color name="cafe_oscuro">#3A2B24</color>
+
+    <!-- Casi negro (#1B1617) -->
+    <color name="negro_calido">#1B1617</color>
+
+    <!-- Azul (#6D8AA6) y sus tonos -->
+    <color name="azul_muy_claro">#DCE5ED</color>
+    <color name="azul_claro">#A9BDD0</color>
+    <color name="azul">#6D8AA6</color>
+    <color name="azul_oscuro">#46607A</color>
+    <color name="azul_profundo">#2F4256</color>
+
+    <color name="blanco">#FFFFFF</color>
+    <color name="error">#B3261E</color>
+</resources>

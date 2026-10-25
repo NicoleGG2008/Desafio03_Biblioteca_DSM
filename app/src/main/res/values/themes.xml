@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Theme.Biblioteca" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/azul_oscuro</item>
+        <item name="colorPrimaryVariant">@color/azul_profundo</item>
+        <item name="colorOnPrimary">@color/blanco</item>
+        <item name="colorSecondary">@color/rosa_oscuro</item>
+        <item name="colorSecondaryVariant">@color/cafe</item>
+        <item name="colorOnSecondary">@color/blanco</item>
+        <item name="colorError">@color/error</item>
+        <item name="android:windowBackground">@color/arena_muy_claro</item>
+        <item name="android:statusBarColor" tools:targetApi="l">@color/cafe</item>
+        <item name="android:textColorPrimary">@color/negro_calido</item>
+
+        <!-- Estilo de todos los modales de la app -->
+        <item name="materialAlertDialogTheme">@style/TemaDialogoBiblioteca</item>
+    </style>
+
+    <!-- ========== MODALES ========== -->
+    <style name="TemaDialogoBiblioteca" parent="ThemeOverlay.MaterialComponents.MaterialAlertDialog">
+        <item name="alertDialogStyle">@style/EstiloDialogoBiblioteca</item>
+        <item name="colorSurface">@color/arena_muy_claro</item>
+        <item name="colorOnSurface">@color/negro_calido</item>
+        <item name="materialAlertDialogTitleTextStyle">@style/TituloDialogoBiblioteca</item>
+        <item name="materialAlertDialogBodyTextStyle">@style/CuerpoDialogoBiblioteca</item>
+        <item name="buttonBarPositiveButtonStyle">@style/BotonDialogoPositivo</item>
+        <item name="buttonBarNegativeButtonStyle">@style/BotonDialogoNegativo</item>
+    </style>
+
+    <style name="EstiloDialogoBiblioteca" parent="MaterialAlertDialog.MaterialComponents">
+        <item name="shapeAppearance">@style/FormaDialogoBiblioteca</item>
+        <item name="shapeAppearanceOverlay">@null</item>
+    </style>
+
+    <style name="FormaDialogoBiblioteca" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">24dp</item>
+    </style>
+
+    <style name="TituloDialogoBiblioteca" parent="MaterialAlertDialog.MaterialComponents.Title.Text">
+        <item name="android:textColor">@color/cafe</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="CuerpoDialogoBiblioteca" parent="MaterialAlertDialog.MaterialComponents.Body.Text">
+        <item name="android:textColor">@color/cafe_claro</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <!-- Botón principal: relleno azul -->
+    <style name="BotonDialogoPositivo" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/azul_oscuro</item>
+        <item name="android:textColor">@color/blanco</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:minWidth">110dp</item>
+        <item name="android:minHeight">72dp</item>
+        <item name="android:insetLeft">8dp</item>
+        <item name="android:insetRight">12dp</item>
+        <item name="android:insetTop">14dp</item>
+        <item name="android:insetBottom">14dp</item>
+        <item name="cornerRadius">14dp</item>
+    </style>
+
+    <!-- Botón secundario: contorno azul -->
+    <style name="BotonDialogoNegativo" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="strokeColor">@color/azul_oscuro</item>
+        <item name="strokeWidth">2dp</item>
+        <item name="android:textColor">@color/azul_oscuro</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:minWidth">110dp</item>
+        <item name="android:minHeight">72dp</item>
+        <item name="android:insetLeft">4dp</item>
+        <item name="android:insetRight">8dp</item>
+        <item name="android:insetTop">14dp</item>
+        <item name="android:insetBottom">14dp</item>
+        <item name="cornerRadius">14dp</item>
+    </style>
+</resources>

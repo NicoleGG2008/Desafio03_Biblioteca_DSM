@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "119557735544",
+    "project_id": "desafio03-biblioteca",
+    "storage_bucket": "desafio03-biblioteca.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:119557735544:android:b1ab1e31c6bc9c96bad98d",
+        "android_client_info": {
+          "package_name": "com.example.desafio03_biblioteca"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCImwrYcLpU_hT6AO6MbsR3byUtvzxY-rc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
